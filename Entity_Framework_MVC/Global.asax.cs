@@ -15,6 +15,7 @@ namespace Entity_Framework_MVC
             RouteConfig.RegisterRoutes(RouteTable.Routes);
 
             //Added new comment
+            //Added new comment
         }
     }
 }
