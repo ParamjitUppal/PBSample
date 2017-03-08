@@ -13,6 +13,8 @@ namespace Entity_Framework_MVC
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+
+            //Added new comment
         }
     }
 }
