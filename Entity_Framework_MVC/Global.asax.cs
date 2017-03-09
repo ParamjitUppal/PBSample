@@ -26,7 +26,7 @@ namespace Entity_Framework_MVC
             //testing 8 build
 
             string abc = "test";
-            //added string1
+            //added string2
         }
     }
 }
