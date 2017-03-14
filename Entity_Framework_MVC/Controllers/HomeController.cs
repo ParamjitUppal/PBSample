@@ -11,9 +11,10 @@ public class HomeController : Controller
     // GET: Home
     public ActionResult Index()
     {
-        NorthwindEntities entities = new NorthwindEntities();
-        return View(from customer in entities.Customers.Take(10)
-                    select customer);
+        return View();
+        //NorthwindEntities entities = new NorthwindEntities();
+        //return View(from customer in entities.Customers.Take(10)
+        //            select customer);
     }
 }
 }
